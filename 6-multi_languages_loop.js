@@ -1,14 +1,5 @@
-const messages = [
-  "C is fun",
-  "Python is cool", 
-  "JavaScript is amazing"
-];
+const languages = ["C is fun", "Python is cool", "JavaScript is amazing"];
 
-let output = '';
-
-for (let i = 0; i < messages.length; i++) {
-  
-  output += messages[i] + '\n';
+for (let i = 0; i < languages.length; i++) {
+    console.log(languages[i]);
 }
-
-console.log(output);
